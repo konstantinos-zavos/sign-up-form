@@ -15,14 +15,20 @@ body {
 }
 
 .main-card {
+    display: flex;
     margin: auto;
     border: 5px solid black;
     width: 950px;
     height: 750px;
-    background-color: #5b4965
+    background-color: #5b4965;
+    flex-direction: row;
 }
 
 
 .image {
-    opacity: 70%;
+    opacity: 60%;
+}
+
+.test {
+    
 }

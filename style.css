@@ -11,6 +11,7 @@ html,body {
 
 body {
     display:flex;
+    background-color: #2e293a;
 }
 
 .main-card {
@@ -18,4 +19,10 @@ body {
     border: 5px solid black;
     width: 950px;
     height: 750px;
+    background-color: #5b4965
+}
+
+
+.image {
+    opacity: 70%;
 }

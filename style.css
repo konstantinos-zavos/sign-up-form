@@ -19,7 +19,7 @@ body {
     margin: auto;
     border: 5px solid black;
     width: 950px;
-    height: 750px;
+    height: 550px;
     background-color: #5b4965;
     flex-direction: row;
 }
@@ -29,6 +29,13 @@ body {
     opacity: 60%;
 }
 
-.test {
-    
-}
+
+/* 
+o b s d i a n color palette 
+from lighter to darker
+#71627a	(113,98,122)
+#5b4965	(91,73,101)
+#3d354b	(61,53,75)
+#2e293a	(46,41,58)
+#2e293a	(46,41,58)
+ */

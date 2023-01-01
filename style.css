@@ -29,6 +29,13 @@ body {
     opacity: 60%;
 }
 
+.form {
+    font-size: 1rem;
+    line-height: 1.2;
+    padding: 5px;
+    margin: auto;
+}
+
 
 /* 
 o b s d i a n color palette 

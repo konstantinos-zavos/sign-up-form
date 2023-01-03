@@ -29,27 +29,18 @@ body {
     opacity: 60%;
 }
 
-.form {
 
-    font-size: 1rem;
-    line-height: 1.2;
-    padding: 5px;
-    margin: auto;
-    width: 200px;
-}
-
-
-/* 
-o b s d i a n color palette 
-from lighter to darker
-#71627a	(113,98,122)
-#5b4965	(91,73,101)
-#3d354b	(61,53,75)
-#2e293a	(46,41,58)
-#2e293a	(46,41,58)
- */
 
 
 input {
     margin: 5px;
+}
+
+.form-space {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 10px;
 }

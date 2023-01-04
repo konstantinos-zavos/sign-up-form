@@ -11,36 +11,62 @@ html,body {
 
 body {
     display:flex;
-    background-color: #2e293a;
+    background-color: #EE7272;
 }
 
-.main-card {
+
+
+.card {
     display: flex;
     margin: auto;
     border: 5px solid black;
     width: 950px;
+    min-width: 750px;
     height: 550px;
-    background-color: #5b4965;
+    background-color: #F6CDCD;
     flex-direction: row;
+    background-image:url("img/background-image.gif");
+    background-size: cover;
+    border-radius: 20px;
 }
-
+ 
 
 .image {
-    opacity: 60%;
+    opacity: 75%;
 }
 
-
-
-
-input {
-    margin: 5px;
+.rounded {
+    border-radius: 10px
 }
+
 
 .form-space {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+
+.top-space {
+    display: flex;
+    flex: 1;
+    text-align: center;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 0 10px;
+    justify-content: center;
+}
+
+.form-space {
+    flex: 2;
+}
+
+.bottom-space {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
+input {
+
 }

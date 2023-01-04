@@ -55,6 +55,7 @@ body {
 
 .form-space {
     flex: 2;
+    padding: 10px;
 }
 
 .bottom-space {

@@ -67,6 +67,11 @@ body {
 }
 
 
+a {
+    text-decoration:none;
+    color: #EA4444;
+}
+
 input {
 
 }
